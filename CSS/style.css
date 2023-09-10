@@ -34,7 +34,7 @@ a {
 
 body {
     background-color: #070724;
-    background-image: url(background-stars.svg);
+    background-image: url(../Assets/Images/background-stars.svg);
     background-size: cover;
     max-width: 100vw;
     height: 100vh;
