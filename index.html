@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="headerAndNavBar">
+            <h1 class="title">THE PLANETS</h1>
+            <div class="burgerMenu">
+                <div class="hamburger-menu">
+                    <button class="burger-btn"><img src="Assets/Images/icon-burger.svg" alt="burger-menu"/></button>
+                    <div id="main-nav" class="hamburger-menu-links">
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>MERCURY</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>VENUS</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>EARTH</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>MARS</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>JUPITER</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>SATURN</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>URANUS</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menuPlanets">
+                            <a href="#">
+                                <div class="circle"></div>
+                                <h3>NEPTUNE</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headMenu">
+                <nav class="menu-links">
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="#">MERCURY</a></li>
+                        <li><a class="nav-link" href="#">VENUS</a></li>
+                        <li><a class="nav-link" href="#">EARTH</a></li>
+                        <li><a class="nav-link" href="#">MARS</a></li>
+                        <li><a class="nav-link" href="#">JUPITER</a></li>
+                        <li><a class="nav-link" href="#">SATURN</a></li>
+                        <li><a class="nav-link" href="#">URANUS</a></li>
+                        <li><a class="nav-link" href="#">NEPTUNE</a></li>
+                    </ul>
+                </nav>
+            </div>                      
+        </div>
+        <hr class="mainHr">
+    </header>
+
+    <main>       
+        <div class="headOptions">
+            <div class="headInfo">
+                <button id="overview" class="option">
+                    <p class="number">01</p>
+                    <h1>OVERVIEW</h1>
+                </button>
+                <button id="structure" class="option">
+                    <p class="number">02</p>
+                    <h1 class="addingWord">INTERNAL</h1>
+                    <h1>STRUCTURE</h1>
+                </button>
+                <button id="geology" class="option">
+                    <p class="number">03</p>
+                    <h1 class="addingWord">SURFACE</h1>
+                    <h1>GEOLOGY</h1>
+                </button>
+            </div>
+        </div>
+        <hr class="mainHr">
+
+        <div class="middleDiv">
+            <img id="planet-img" class="mainImg" src="Assets/Images/planet-mercury.svg" alt="mercurymockup"/>
+            <img id="planet-img2" alt="image of planet"/>
+            <div class="textAndOptions">
+                <div class="textAndSource">
+                    <h1 id="planet-name" class="planetName">Mercury</h1>
+                    <p id="planet-desc" class="textContent">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.</p>
+                    <div class="sourceDiv">
+                        <p class="source">Source :</p>
+                        <a id="wikisource" class="source" href="https://en.wikipedia.org/wiki/Mercury_(planet)">Wikipedia</a>
+                        <img src="Assets/Images/icon-source.svg"/>
+                    </div>  
+                </div>
+                <div class="options">
+                    <div class="headInfo">
+                        <button id="overview1" class="option">
+                            <p class="number">01</p>
+                            <h1>OVERVIEW</h1>
+                        </button>
+                        <button id="structure1" class="option">
+                            <p class="number">02</p>
+                            <h1 class="addingWord">INTERNAL</h1>
+                            <h1>STRUCTURE</h1>
+                        </button>
+                        <button id="geology1" class="option">
+                            <p class="number">03</p>
+                            <h1 class="addingWord">SURFACE</h1>
+                            <h1>GEOLOGY</h1>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="infoContainer">
+                    <p class="infoText">ROTATION TIME</p>
+                    <p id="rotation" class="infoNumber">58.6 Days</p>
+                </div>
+                
+                <div class="infoContainer">
+                    <p class="infoText">REVOLUTION TIME</p>
+                    <p id="revolution" class="infoNumber">87.97 Days</p>
+                </div>
+                
+                <div class="infoContainer">
+                    <p class="infoText">RADIUS</p>
+                    <p id="radius" class="infoNumber">2,439.7 KM</p>
+                </div>
+                
+                <div class="infoContainer">
+                    <p class="infoText">AVERAGE TEMP.</p>
+                    <p id="temperature" class="infoNumber">430°c</p>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
